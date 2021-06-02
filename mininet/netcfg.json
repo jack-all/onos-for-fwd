@@ -1,0 +1,26 @@
+{
+  "devices": {
+    "device:leaf1": {
+      "basic": {
+        "managementAddress": "grpc://mininet:50001?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.zhejianglab.minindn"
+      },
+	  "fabricDeviceConfig": {
+        "myStationMac": "00:aa:00:00:00:11",
+        "isSpine": false
+      }
+    },
+	"device:leaf2": {
+      "basic": {
+        "managementAddress": "grpc://mininet:50002?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.zhejianglab.minindn"
+      },
+	  "fabricDeviceConfig": {
+        "myStationMac": "00:aa:00:00:00:22",
+        "isSpine": false
+      }
+    }
+  }
+}
